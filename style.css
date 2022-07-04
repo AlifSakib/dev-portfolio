@@ -1,6 +1,5 @@
 body {
   font-family: "Poppins", sans-serif;
-  margin: 0;
 }
 .heading-color {
   color: violet;
@@ -9,7 +8,7 @@ body {
 .top-header h1 {
   font-size: 50px;
 }
-.top-header p {
+.paragraph {
   font-style: italic;
   text-align: justify;
   padding-bottom: 15px;
@@ -26,17 +25,54 @@ body {
 
 .half-width {
   width: 50%;
-  padding: 10px;
+  padding: 5%;
 }
 .half-width img {
   width: 100%;
 }
 
-.hire-me {
+.click {
   text-decoration: none;
   color: white;
   font-weight: 700;
   background: linear-gradient(45deg, slateblue, violet);
   padding: 10px 40px;
   border-radius: 5px;
+}
+
+.middle-header {
+  display: flex;
+  background-image: url(/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.final-header {
+  text-align: center;
+  font-size: 40px;
+}
+
+.experience-area {
+  display: flex;
+  background-image: url(/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#exp-1 {
+  border-left: 6px solid lightcoral;
+  border-radius: 5px;
+  box-shadow: 10px 25px 40px gray;
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 2%;
+  padding: 40px;
+}
+
+#exp-2 {
+  border-left: 6px solid violet;
+  box-shadow: 10px 25px 40px gray;
+  border-radius: 5px;
+  width: 40%;
+
+  padding: 40px;
 }
