@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 .heading-color {
   color: violet;
@@ -48,7 +49,8 @@ body {
 }
 .final-header {
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
+  padding-bottom: 2%;
 }
 
 .experience-area {
@@ -60,7 +62,7 @@ body {
 
 #exp-1 {
   border-left: 6px solid lightcoral;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 10px 25px 40px gray;
   width: 40%;
   margin-right: 5%;
@@ -71,8 +73,12 @@ body {
 #exp-2 {
   border-left: 6px solid violet;
   box-shadow: 10px 25px 40px gray;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 40%;
-
   padding: 40px;
+}
+.footer {
+  text-align: center;
+  padding: 10% 10% 5% 10%;
+  font-weight: 500;
 }
