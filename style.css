@@ -1,0 +1,42 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.heading-color {
+  color: violet;
+}
+
+.top-header h1 {
+  font-size: 50px;
+}
+.top-header p {
+  font-style: italic;
+  text-align: justify;
+  padding-bottom: 15px;
+}
+.top-header a:hover {
+  background: linear-gradient(45deg, lightsalmon, tomato);
+}
+
+.top-header {
+  background-image: url(/images/top-banner.png);
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+  padding: 10px;
+}
+.half-width img {
+  width: 100%;
+}
+
+.hire-me {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  background: linear-gradient(45deg, slateblue, violet);
+  padding: 10px 40px;
+  border-radius: 5px;
+}
